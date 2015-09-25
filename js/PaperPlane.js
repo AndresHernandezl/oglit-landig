@@ -240,7 +240,7 @@ jQuery(document).ready(function () {
 
         var myLatlng, mapOptions, mapElement, map, markerimage, marker, styleSs;
 
-        myLatlng = new google.maps.LatLng(29.983775, 31.167161);
+        myLatlng = new google.maps.LatLng(4.6741146, -74.04834249999999);
         mapOptions = {
             zoom: 16,
             panControl: false,
