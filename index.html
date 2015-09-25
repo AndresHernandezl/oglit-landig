@@ -1,8 +1,21 @@
+<!--                                                     -->
+<!--    ,----..                                          -->
+<!--   /   /   \               ,--,              ___     -->
+<!--  /   .     :            ,--.'|     ,--,   ,--.'|_   -->
+<!-- .   /   ;.  \           |  | :   ,--.'|   |  | :,'  -->
+<!--.   ;   /  ` ;  ,----._,.:  : '   |  |,    :  : ' :  -->
+<!--;   |  ; \ ; | /   /  ' /|  ' |   `--'_  .;__,'  /   -->
+<!--|   :  | ; | '|   :     |'  | |   ,' ,'| |  |   |    -->
+<!--.   |  ' ' ' :|   | .\  .|  | :   '  | | :__,'| :    -->
+<!--'   ;  \; /  |.   ; ';  |'  : |__ |  | :   '  : |__  -->
+<!-- \   \  ',  / '   .   . ||  | '.'|'  : |__ |  | '.'| -->
+<!--  ;   :    /   `---`-'| |;  :    ;|  | '.'|;  :    ; -->
+<!--   \   \ .'    .'__/\_: ||  ,   / ;  :    ;|  ,   /  -->
+<!--    `---`      |   :    : ---`-'  |  ,   /  ---`-'   -->
+<!--                \   \  /           ---`-'            -->
+<!--                 `--`-'                              -->
 <!DOCTYPE html>
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en" class="no-js"> <!--<![endif]-->
     <!-- =========================================
     head
     ========================================== -->
@@ -29,22 +42,12 @@
         fav & icons for iPhone and iPad
         ========================================== -->
         <link rel="shortcut icon" href="images/icons/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" href="images/icons/icon.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/icon%402x.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/icon-72.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/icon-72%402x.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/icons/icon-60.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/icons/icon-60%402x.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/icons/icon-76.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/icons/icon-76%402x.png" />
-
+        
         <!-- =========================================
         CSS
         ========================================== -->
         <link rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
         <link rel="stylesheet" media="screen" href="css/style.css" />
-        <link rel="stylesheet" media="screen" href="css/style.css" id="color-switch" />
-
         <link rel="stylesheet" media="screen" href="StyleSwitcher/switcher.css" />
 
         <!-- =========================================
@@ -64,29 +67,14 @@
     body
     ========================================== -->
     <body class="parallax-slider">
-
-
-
-
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-
-
         <!-- =========================================
         Loader
         ========================================== -->
         <div id="loader">
             <div id="loader-container">
-                <img src="images/loader.gif" alt="Loader" />
+                <img  id="loader-img" src="images/loader.gif" alt="Loader" />
             </div>
         </div>
-
-
-
-
         <!-- =========================================
         Menu
         ========================================== -->
@@ -99,53 +87,41 @@
                 <div class="container">
                     <!-- row -->
                     <div class="row">
-
                         <!-- col-md-12 -->
                         <div class="col-md-12">
-
                             <!-- navbar-header -->
                             <div class="navbar-header">
-
                                 <!-- Mobile Menu -->
                                 <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
                                     <i class="fa fa-bars"></i>
                                 </button><!-- / mobile Menu -->
-
                                 <!-- logo -->
                                 <a href="#home-section" class="navbar-brand" data-scroll title="PaperPlane">
                                     <img src="images/oglit_logo.png" alt="Menu Logo" />
                                 </a><!-- /logo -->
-
                             </div><!-- /navbar-header -->
-
                             <!-- navbar-collapse -->
                             <div class="navbar-collapse collapse">
-
                                 <!-- nav -->
                                 <ul class="nav navbar-nav navbar-right">
-
                                     <!-- Home -->
                                     <li>
                                         <a href="#home-section" title="Home" data-scroll class="scrollto">
                                             Inico
                                         </a>
                                     </li><!-- /Home -->
-
-
                                     <!-- Services Section -->
                                     <li>
                                         <a href="#about-section-1" title="Services" data-scroll class="scrollto">
                                             Servicios
                                         </a>
                                     </li><!-- /Services Section -->
-
                                     <!-- Process -->
                                     <li>
                                         <a href="#process-section" title="Process" data-scroll class="scrollto">
                                             Proceso
                                         </a>
                                     </li><!-- /Process -->
-
                                     <!-- Team -->
                                     <li>
                                         <a href="#team-section" title="Team" data-scroll class="scrollto">
@@ -158,145 +134,91 @@
                                             Portafolio
                                         </a>
                                     </li><!-- /Portfolio -->
-
                                    <!-- Contact -->
                                     <li>
                                         <a href="#contact-section" title="Contact" data-scroll class="scrollto">
                                             Contacto
                                         </a>
                                     </li><!-- /Contact -->
-
                                 </ul><!-- /nav -->
-
                             </div><!-- /navbar-collapse -->
-
                         </div><!-- /col-md-12 -->
-
                     </div><!-- /row -->
                 </div><!-- /container -->
-
             </div><!-- /navbar -->
         </nav><!-- /nav-wrapper -->
-
-
-
-
         <!-- =========================================
         Home Section
         ========================================== -->
         <!-- home-section -->
         <div id="home-section">
-
             <!-- home-section-overlayer -->
             <div id="home-section-overlayer"></div>
-
             <!-- owl-home-wrapper -->
             <div id="owl-home-wrapper">
-
                 <!-- owl-home -->
                 <div class="owl-home">
-
                     <!-- slide-item -->
                     <div class="slide-item" style="background-image: url(images/slider/002.jpg)">
-
                         <!-- slide-content -->
                         <div class="slide-content">
-
-
                             <!-- slide-logo -->
                             <div class="slide-logo">
                                 <img src="images/oglit_logo.png" alt="Slider Logo" />
                             </div><!-- /slide-logo -->
-
                             <!-- slide-title -->
                             <div class="slide-title">
                                 Freelancer creativos
                             </div><!-- /slide-title -->
-
                             <!-- slide-desc -->
                             <div class="slide-desc">
                                 Proyectos que extienden posibilidades
                             </div><!-- /slide-desc -->
-
                             <!-- slide-divider -->
                             <div class="slide-divider"></div>
-
                             <!-- slide-button -->
                             <div class="slide-button">
                                 <a href="#about-section-1" title="Read More" data-scroll class="btn btn-meduim btn-nesto scrollto">
                                     Leer Más
                                 </a>
                             </div><!-- /slide-button -->
-
-
                         </div><!-- /slide-content -->
-
                     </div><!-- /slide-item -->
-
                 </div><!-- /owl-home -->
-
             </div><!-- /owl-home-wrapper -->
-
         </div><!-- /home-section -->
-
-
-
-
         <!-- =========================================
         About Section 1
         ========================================== -->
         <!-- about-section-1 -->
         <div id="about-section-1">
-
             <!-- container -->
             <div class="container">
                 <!-- row -->
                 <div class="row">
-
                       <!-- col-md-12 -->
                     <div class="col-md-12 wow fadeInDown" data-wow-duration="1.5s">
-
                         <!-- section-title -->
                         <div class="section-title">
                             Servicios
                         </div>
-
                     </div><!-- /col-md-12 -->
-
-
                     <!-- col-md-6 -->
                     <div class="col-md-6 wow fadeInLeft" data-wow-duration="1.5s">
-
                         <!-- short-section-title -->
                         <div class="short-section-title wow">
                             Desarrollo a la medida
                         </div><!-- /short-section-title -->
-
                         <!-- section-content -->
                         <div class="section-content">
-                            Entendemos que tu negocio es diferente a todos, así que diseñamos tus aplicaciones para que se ajusten a tu modelo de negocio, a tu filosofía como empresa.
-
+                            Entendemos que tu negocio es diferente a todos, así que diseñamos tus aplicaciones para que se ajusten a tu modelo de negocio, a tu filosofía como empresa. 
 
                         </div><!-- /section-content -->
-
                         <!-- section-list -->
                         <div class="section-list">
-                            Estamos capacitados para crear y diseñar software ala medida, cuentanos que proyectos quieres realizar.
-                      <!--       <ul>
-                                <li>A ornare odio ed non  mauris vitae erat consequat auctor eu in elit.</li>
-                                <li>Class aptent taciti sociosqu ad litora torquent per conubia nostra.</li>
-                                <li>Nullam ac urna eu felis dapibus condimentum.</li>
-                            </ul> -->
+                            Estamos capacitados para crear y diseñar software a la medida, cuéntanos que proyectos quieres realizar. 
                         </div><!-- /section-list -->
-
-                        <!-- section-content -->
-                        <!-- <div class="section-content">
-                            Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        </div> --><!-- /section-content -->
-
                     </div><!-- /col-md-6 -->
-
-
                     <!-- col-md-6 -->
                     <div class="col-md-6 wow fadeInRight" data-wow-duration="1.5s">
 
@@ -312,10 +234,6 @@
             </div><!-- /container -->
 
         </div><!-- /about-section-1 -->
-
-
-
-
         <!-- =========================================
         Services Section
         ========================================== -->
@@ -326,18 +244,6 @@
             <div class="container">
                 <!-- row -->
                 <div class="row">
-
-                    <!-- col-md-12 -->
-                   <!--  <div class="col-md-12 wow fadeInDown" data-wow-duration="1.5s">
-
-                        
-                        <div class="section-title">
-                            Tecnologías
-                        </div>
-                    </div> --><!-- /col-md-12 -->
-                  
-
-
                     <!-- col-md-6 -->
                     <div class="col-md-6 wow fadeInLeft" data-wow-duration="1.5s">
 
@@ -357,17 +263,14 @@
 
                             <!-- feature-content -->
                             <div class="feature-content">
-                                Todas las empresas o modelos de negocio nesecitan de una sitio web, donde puedan generar contenido de interes ademas de crear una comunidad para tu producto o servicio.
+                                Todas las empresas o modelos de negocio necesitan de una sitio web, donde puedan generar contenido de interés además de crear una comunidad para tu producto o servicio.
                             </div><!-- /feature-content -->
 
                         </div><!-- /feature-box-style-2 -->
 
                     </div><!-- /col-md-6 -->
-
-
                     <!-- col-md-6 -->
                     <div class="col-md-6 wow fadeInRight" data-wow-duration="1.5s">
-
                         <!-- feature-box-style-2 -->
                         <div class="feature-box-style-2">
 
@@ -384,7 +287,7 @@
 
                             <!-- feature-content -->
                             <div class="feature-content">
-                                Hoy casi todos los sitios web cuentan con una version para movil ademas de constante crecimiento de las app moviles. ¿por que no te animas a tener la tuya?
+                                Hoy casi todos los sitios web cuentan con una versión para móvil además de constante crecimiento de las app móviles. ¿Por qué no te animas a tener la tuya? 
                             </div><!-- /feature-content -->
 
                         </div><!-- /feature-box-style-2 -->
@@ -411,7 +314,7 @@
 
                             <!-- feature-content -->
                             <div class="feature-content">
-                                Trabajamos y entendemos a la perfección  todo lo relacionado con diseño y maquetacion contamos con más de 20 plantillas html.
+                                Trabajamos y entendemos a la perfección todo lo relacionado con diseño y maquetación contamos con más de 20 plantillas HTML5. 
                             </div><!-- /feature-content -->
 
                         </div><!-- /feature-box-style-2 -->
@@ -433,12 +336,12 @@
 
                             <!-- feature-title -->
                             <div class="feature-title">
-                                Wordpress
+                                CMS
                             </div><!-- /feature-title -->
 
                             <!-- feature-content -->
                             <div class="feature-content">
-                                Desarrollamos y administramos tu sitio con wordpress si no lo tienes configurado en tu web, tranquilo podemos hacerlo por ti.
+                                Desarrollamos y administramos tu sitio con Wordpress,Joomla y PrestaShop si no lo tienes configurado en tu web, tranquilo podemos hacerlo por ti.
                             </div><!-- /feature-content -->
 
                         </div><!-- /feature-box-style-2 -->
@@ -497,9 +400,7 @@
 
                             <!-- feature-content -->
                             <div class="feature-content">
-                                Diseñamos tu sitio con los requerimientos que solicites
-                                UX/UI enfocado al tipo de usuario. 
-                                Sabemos que quieres el mejor diseño posible y trabajamos para hacerlo realidad.
+                                Diseño Diseñamos tu sitio con los requerimientos que solicites UX/UI enfocado al tipo de usuario. Sabemos que quieres el mejor diseño posible y trabajamos para hacerlo realidad.
                             </div><!-- /feature-content -->
 
                         </div><!-- /feature-box-style-3 -->
@@ -531,7 +432,7 @@
 
                             <!-- feature-content -->
                             <div class="feature-content">
-                                Conocemos lo complicado que es  para ti esta fase, por eso estamos dispuestos a poner a tu disposición el mejor equipo de desarrollo que tenemos.
+                                Conocemos lo complicado que es para ti esta fase, por eso estamos dispuestos a poner a tu disposición el mejor equipo de desarrollo que tenemos. 
                             </div><!-- /feature-content -->
 
                         </div><!-- /feature-box-style-3 -->
@@ -563,7 +464,7 @@
 
                             <!-- feature-content -->
                             <div class="feature-content">
-                                Nos encargamos de todo el despliegue de tu sitio, creacion de correos corporativos, y lo que necesites para el correcto funcionamiento de su sitio.
+                                Nos encargamos de todo el despliegue de tu sitio, creación de correos corporativos, y lo que necesites para el correcto funcionamiento de su sitio
                             </div><!-- /feature-content -->
 
                         </div><!-- /feature-box-style-3 -->
@@ -575,10 +476,6 @@
             </div><!-- /container -->
 
         </div><!-- /process-section -->
-
-
-
-
         <!-- =========================================
         Numbers Section
         ========================================== -->
@@ -1217,7 +1114,7 @@
                         <div class="portfolio-content">
 
                             <!-- Portfolio Image -->
-                            <img src="images/portfolio/biofrut.png" alt="Project Image"/>
+                            <img src="images/portfolio/biofrut.png" alt="Project Biofrut"/>
 
                             <!-- portfolio-details -->
                             <div class="portfolio-details">
@@ -1229,7 +1126,7 @@
                                         Biofrut Company
                                     </span>
                                     <span>
-                                        <a href="http://biofrut.com/" title="Ir a biofrut">
+                                        <a href="http://biofrut.com/" title="Ir a biofrut" target="_blank">
                                             <i class="pe-7s-paperclip"></i>
                                         </a>
                                     </span>
@@ -1262,7 +1159,7 @@
                                         Tu Cocina Virtual
                                     </span>
                                     <span>
-                                        <a href="http://tucocinavirtual.com/" title="Ir a tucocinavirtual">
+                                        <a href="http://tucocinavirtual.com/" title="Ir a tucocinavirtual" target="_blank">
                                             <i class="pe-7s-paperclip"></i>
                                         </a>
                                     </span>
@@ -1295,7 +1192,7 @@
                                         Domisil
                                     </span>
                                     <span>
-                                        <a href="http://domisil.co/#/" title="Ir a domisil">
+                                        <a href="http://domisil.co/#/" title="Ir a domisil" target="_blank">
                                             <i class="pe-7s-paperclip"></i>
                                         </a>
                                     </span>
@@ -1329,7 +1226,7 @@
                                         Comunidad Unida
                                     </span>
                                     <span>
-                                        <a href="http://comunidadunida.com/" title="Ir a comunidad unida">
+                                        <a href="http://comunidadunida.com/" title="Ir a comunidad unida" target="_blank">
                                             <i class="pe-7s-paperclip"></i>
                                         </a>
                                     </span>
@@ -1362,7 +1259,7 @@
                                         EducateX
                                     </span>
                                     <span>
-                                        <a href="http://educatex.co/" title="Ir a educatex">
+                                        <a href="http://educatex.co/" title="Ir a educatex" target="_blank">
                                             <i class="pe-7s-paperclip"></i>
                                         </a>
                                     </span>
@@ -1383,7 +1280,7 @@
                         <div class="portfolio-content">
 
                             <!-- Portfolio Image -->
-                            <img src="images/portfolio/hdo.png" alt="Project Image"/>
+                            <img src="images/portfolio/hdo.png" alt="Project Image hdo"/>
 
                             <!-- portfolio-details -->
                             <div class="portfolio-details">
@@ -1395,7 +1292,7 @@
                                         Hamburguesas del Oeste
                                     </span>
                                     <span>
-                                        <a href="http://hamburguesasdeloeste.com/" title="Ir hamburguesas del oeste">
+                                        <a href="http://hamburguesasdeloeste.com/" title="Ir hamburguesas del oeste" target="_blank">
                                             <i class="pe-7s-paperclip"></i>
                                         </a>
                                     </span>

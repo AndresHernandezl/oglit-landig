@@ -1,3 +1,19 @@
+/*                                                     */
+/*    ,----..                                          */
+/*   /   /   \               ,--,              ___     */
+/*  /   .     :            ,--.'|     ,--,   ,--.'|_   */
+/* .   /   ;.  \           |  | :   ,--.'|   |  | :,'  */
+/*.   ;   /  ` ;  ,----._,.:  : '   |  |,    :  : ' :  */
+/*;   |  ; \ ; | /   /  ' /|  ' |   `--'_  .;__,'  /   */
+/*|   :  | ; | '|   :     |'  | |   ,' ,'| |  |   |    */
+/*.   |  ' ' ' :|   | .\  .|  | :   '  | | :__,'| :    */
+/*'   ;  \; /  |.   ; ';  |'  : |__ |  | :   '  : |__  */
+/* \   \  ',  / '   .   . ||  | '.'|'  : |__ |  | '.'| */
+/*  ;   :    /   `---`-'| |;  :    ;|  | '.'|;  :    ; */
+/*   \   \ .'    .'__/\_: ||  ,   / ;  :    ;|  ,   /  */
+/*    `---`      |   :    : ---`-'  |  ,   /  ---`-'   */
+/*                \   \  /           ---`-'            */
+/*                 `--`-'                              */
 /* Import Basic Files
 -------------------------------------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Karma:400,700);
@@ -19,291 +35,8 @@
 /*
 
 
-Template Name: PaperPlane
-Description: Responsive HTML5 / CSS3 Portfolio Template
+Template Name: Oglit
 Version: 1.0
-
-
-Notes:
-    Color1: #00A1FF;
-    Color2: #00A1FF;
-
-
-1. General
-    1.1 Main Styles
-    1.2 Anchor
-    1.3 Placeholder
-    1.4 Buttons
-        1.4.1 Main Buttons
-        1.4.2 Alternative Main Buttons
-        1.4.3 More Button
-    1.5 Section Title
-    1.6 Short Section Title
-    1.7 Loader
-    1.8 Override Tooltip
-2. Typography
-    2.1 Headings
-    2.2 Selection Color
-3. Menu
-    3.1 Wrapper
-    3.2 Navbar
-    3.3 Navbar Brand
-    3.4 Items
-    3.5 Menu Button
-    3.6 Sub Menu
-        3.6.1 Wrapper
-        3.6.2 List
-        3.6.3 Items
-        3.6.4 Anchor
-        3.6.5 Hover
-4. Home Section
-    4.1 Wrapper
-        4.1.1 Parallax Image
-        4.1.2 Parallax Slider
-        4.1.3 Video Background
-    4.2 OverLayer
-    4.3 Home Slider
-        4.3.1 Wrapper
-        4.3.2 Content
-            4.3.2.1 Main
-            4.3.2.2 Logo
-            4.3.2.3 Title
-            4.3.2.4 Description
-            4.3.2.5 Divider
-            4.3.2.6 Button
-        4.3.3 Arrows
-        4.3.4 Hover
-5. About Section 1
-    5.1 Wrapper
-    5.2 Section Content
-    5.3 Section List
-        5.3.1 Wrapper
-        5.3.2 List
-        5.3.3 Items
-    5.4 Feature Right Image
-6. About Section 2
-    6.1 Wrapper
-    6.2 Feature Left Image
-    6.3 Feature Box Style 1
-        6.3.1 Wrapper
-        6.3.2 Icon
-        6.3.3 Hover
-7. About Section 3
-8. Download Section
-    8.1 Wrapper
-    8.2 OverLayer
-    8.3 Feature Download Image
-    8.4 Download Content
-9. Clients Section
-    9.1 Wrapper
-    9.2 Client Slider
-        9.2.1 Wrapper
-        9.2.2 Content
-        9.2.3 Arrows
-        9.2.4 Hover
-10. Services Section
-    10.1 Wrapper
-    10.2 Feature Box Style 2
-        10.2.1 Wrapper
-        10.2.2 Icon
-        10.2.3 Title
-        10.2.4 Content
-        10.2.5 Hover
-11. Video Section
-    11.1 Wrapper
-    11.2 Player
-    11.3 Button
-    11.4 Hover
-12. Process Section
-    12.1 Wrapper
-    12.2 Feature Box Style 3
-        12.2.1 Wrapper
-        12.2.2 Icon
-        12.2.3 Number
-        12.2.4 Title
-        12.2.5 Content
-        12.2.6 Hover
-13. Numbers Section
-    13.1 Wrapper
-    13.2 OverLayer
-    13.3 Number Box
-        13.3.1 Wrapper
-        13.3.2 Numbers
-        13.3.3 Title
-14. Team Section
-    14.1 Wrapper
-    14.2 Team Box
-        14.2.1 Wrapper
-        14.2.2 Header
-            14.2.2.1 Wrapper
-            14.2.2.2 Image
-            14.2.2.3 Social
-                14.2.2.3.1 Wrapper
-                14.2.2.3.2 List
-                14.2.2.3.3 Items
-                14.2.2.3.4 anchor
-                14.2.2.3.5 Hover
-        14.2.3 Name
-        14.2.4 Title
-        14.2.5 Gray Scale
-        14.2.6 Hover
-15. Purchase Section
-    15.1 Wrapper
-    15.2 OverLayer
-16. Skills Section
-    16.1 Wrapper
-    16.2 Skill Box
-        16.2.1 Wrapper
-        16.2.2 Value
-        16.2.3 Title
-        16.2.4 Description
-        16.2.5 Hover
-17. Portfolio Section
-    17.1 Wrapper
-    17.1 Portfolio Slider
-        17.1.1 Wrapper
-        17.1.2 Arrows
-        17.2.3 Hover
-    17.2 Portfolio Columns
-        17.2.1 Wrapper
-        17.2.2 Content
-        17.2.3 Image
-        17.2.4 Details
-            17.2.4.1 Wrapper
-            17.2.4.2 Info
-            17.2.4.2.1 Wrapper
-            17.2.4.2.2 Titel
-            17.2.4.2.3 Anchor
-    17.3 Hover
-18. Pricing Section
-    18.1 Wrapper
-    18.2 Pricing Table
-        18.2.1 Wrapper
-        18.2.2 Price
-        18.2.3 Title
-        18.2.4 Description & Fetature
-            18.2.4.1 Wrapper
-            18.2.4.2 List
-            18.2.4.3 Items
-        18.2.5 Button
-        18.2.6 Hover
-19. Subscribe Section
-    19.1 Wrapper
-    19.2 OverLayer
-    19.3 NewsLetter Form
-        19.3.1 Wrapper
-        19.3.2 Form Group
-        19.3.3 Form Control
-        19.3.4 Error / Success Message
-20. Blog Section
-    20.1 Wrapper
-    20.2 Recent Post
-        20.2.1 Wrapper
-        20.2.2 Image
-        20.2.3 Title
-        20.2.4 Meta
-        20.2.5 Content
-        20.2.6 Button
-        20.2.7 Hover
-21. Testimonials Section
-    21.1 Wrapper
-    21.2 OverLayer
-    21.3 Home Slider
-        21.3.1 Wrapper
-        21.3.2 Content
-            21.3.2.1 Wrapper
-            21.3.2.2 Image
-            21.3.2.3 Name
-            21.3.2.4 Quote
-            21.3.2.5 Dots
-            21.3.2.6 Hover
-22. Contact Section
-    22.1 Wrapper
-    22.2 Form Control
-    22.3 Textarea
-    22.4 Button
-    22.5 Error / Success Message
-23. Map Section
-24. Footer Section
-    24.1 Wrapper
-    24.2 Copyright
-        24.2.1 Wrapper
-        24.2.2 Anchor
-    24.3 Social Icons
-        24.3.1 Wrapper
-        24.3.2 Anchor
-25. Blog
-    25.1 Blog Title
-    25.2 Breadcrumb Section
-        25.2.1 Wrapper
-        25.2.2 Breadcrumb
-            25.2.2.1 Wrapper
-            25.2.2.2 Active Item
-            25.2.2.3 Anchor
-    25.3 Post Container
-        25.3.1 Wrapper
-        25.3.2 Button
-    25.4 Hover
-    25.5 Pager
-    25.6 Widget
-        25.6.1 Wrapper
-        25.6.2 Title
-        25.6.3 Search Widget
-        25.6.4 Latest Posts Widget
-            25.6.4.1 Wrapper
-            25.6.4.2 Latest Post
-                25.6.4.2.1 Wrapper
-                25.6.4.2.2 Image
-                25.6.4.2.3 Title
-        25.6.5 Categories Widget
-            25.6.5.1 Categories List
-                25.6.5.1.1 Wrapper
-                25.6.5.1.2 Items
-                25.6.5.1.3 Anchor
-        25.6.6 Tags Widget
-            25.6.6.1 Categories List
-                25.6.6.1.1 Wrapper
-                25.6.6.1.2 Items
-                25.6.6.1.3 Anchor
-    25.7 Post Share
-        25.7.1 Wrapper
-        25.7.2 Items
-            25.7.2.1 Wrapper
-            25.7.2.2 Icons
-            25.7.2.3 Anchor
-    25.8 Post Comments
-        25.8.1 Number
-        25.8.2 Comments
-            25.8.2.1 Wrapper
-            25.8.2.2 List
-            25.8.2.3 Items
-                25.8.2.3.1 Wrapper
-                25.8.2.3.2 Image
-                25.8.2.3.3 Comment
-                    25.8.2.3.3.1 Wrapper
-                    25.8.2.3.3.2 Name
-                    25.8.2.3.3.3 Content
-                    25.8.2.3.3.4 Replay Button
-        25.8.3 Post Replay
-            25.8.3.1 Wrapper
-            25.8.3.2 Title
-            25.8.3.3 Form
-                25.8.3.3.1 Form Control
-                25.8.3.3.2 Textarea
-                25.8.3.3.3 Button
-26. Alert Section
-27. Countdown Section
-    27.1 Wrapper
-    27.2 Countdown
-        27.2.1 Wrapper
-        27.2.2 Title
-        27.2.3 Digit
-
-
-*/
-
-
-
 
 /* ==========================================================================
    1. General
@@ -592,9 +325,9 @@ textarea { color: #000000; }
 }
 #loader-container {
     left: 0;
-    top: 50%;
+    top: 30%;
     width: 100%;
-    height: 92px;
+    height: 250px;
     overflow: hidden;
     margin-top: -5px;
     text-align: center;
@@ -603,6 +336,10 @@ textarea { color: #000000; }
 #loader-container img {
     display: block;
     margin: 0 auto;
+}
+#loader-img{
+    width: 250px;
+	height: 250px;
 }
 
 /* 1.8 Override Tooltip
