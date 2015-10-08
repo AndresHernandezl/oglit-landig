@@ -10,7 +10,7 @@
 
 			$Destino = 'info@oglit.com';
 
-			$header1 = "From: $Email".PHP_EOL;
+			$header1 = "From: $Email";
 			$header1 .= 'Content-type: text; charset=UTF-8' . "\r\n";
 
 			// $mensaje = $Mensaje;
@@ -25,7 +25,7 @@
 				$respuesta = 'success';
 				
 				//enviar confirmación al usuario
-				$header = "From: info@oglit.com".PHP_EOL;
+				$header = "From: info@oglit.com";
 				$header .= 'Content-type: text; charset=UTF-8' . "\r\n";
 
 				$Asunto1 = "Oglit.com - Mensaje enviado";
