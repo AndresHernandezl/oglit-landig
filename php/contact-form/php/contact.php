@@ -8,7 +8,7 @@
 			$Email = $_POST['useremail'];
 			$Mensaje = $_POST['usermessage'];
 
-			$Destino = 'kin3xc@hotmail.com';
+			$Destino = 'info@oglit.com';
 
 			$header1 = "From: $Email".PHP_EOL;
 			$header1 .= 'Content-type: text; charset=UTF-8' . "\r\n";
@@ -25,7 +25,7 @@
 				$respuesta = 'success';
 				
 				//enviar confirmación al usuario
-				$header = "From: kin3xc@hotmail.com".PHP_EOL;
+				$header = "From: info@oglit.com".PHP_EOL;
 				$header .= 'Content-type: text; charset=UTF-8' . "\r\n";
 
 				$Asunto1 = "Oglit.com - Mensaje enviado";
